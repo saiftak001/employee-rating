@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  /* place-items: center; */
+}
+.box h1 {
+  width: 300px;
+  font-size: 20px;
+  margin: 0 0 1rem 0;
+}
+.w-6 {
+  width: 1.5em;
+}
+.h-6 {
+  height: 2.5em;
+}
+.flex {
+  display: flex;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.float-container {
+  margin-right: 10px;
+  float: left;
+}
+
+.loginBox {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 50px;
+  position: static;
+  background: #38468c;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+}
